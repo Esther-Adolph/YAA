@@ -25,7 +25,7 @@ body{
 }
 
 nav{
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 1;
 }
@@ -36,7 +36,7 @@ nav{
 }
 
 
-nav .container{
+nav {
   display: flex;
   align-items: center;
   justify-content : space-between;
@@ -44,20 +44,31 @@ nav .container{
   padding: 1.5rem 0;
 }
 
-nav .container img{
+.navbar img{
   width: 4.2rem;
   height: 4.2rem;
   border-radius: 50%;
 }
 
-nav .container ul{
-  display: flex;
-  gap: 4rem;
+.navbar a{
+  color: #ffffff;
 }
 
-nav .container ul li{
+.navbar ul{
+  float: right;
+  padding-top: 10px;
+}
+
+
+nav ul{
+  display: flex;
+  gap: 1.6rem;
+}
+
+nav  ul li{
   justify-content: space-between;
   list-style: none;
+
   
 }
 a{
@@ -92,15 +103,18 @@ section .container h3{
   color: #30AADD;
 }
 
-nav .container ul li a{
+nav ul li a{
   font-size: 1.5rem;
-  margin-left: 40px;
+  margin-left: 2px;
   background: #ff5b00;
+  border-radius: 6px;
+  padding: 5px;
+  float: right;
 }
 
 
 
-nav .container ul li a:hover{
+nav ul li a:hover{
   background: #00FFC6;
   color: rgb(7, 18, 13);
 }
