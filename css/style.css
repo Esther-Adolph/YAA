@@ -19,7 +19,7 @@ body{
   background: url("https://images.unsplash.com/photo-1654011794021-40b54388c347?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80") no-repeat center center/cover;
 
   width: 100vw;
-  height: 100vh ;
+  height: 50vh ;
   overflow: hidden;
   color: var(--color-light);
 }
@@ -87,7 +87,7 @@ position: relative;
 top: 3rem;
 left: 0;
 text-align: center;
-color: #fff;
+color: rgb(248, 238, 238);
 }
 
 section .container h1{
@@ -107,7 +107,7 @@ nav ul li a{
   font-size: 1.5rem;
   margin-left: 2px;
   background: #ff5b00;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 5px;
   float: right;
 }
