@@ -12,7 +12,9 @@
   }
 
   #btn a{
-    padding: 12px;  
+    padding: 5px;
+    display: grid;  
+    margin-bottom: 10px;
   }
 
   #btn p{
